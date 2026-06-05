@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title>绵阳市公共资源交易服务中心</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    /* ---------- 全局重置 ---------- */
+    body,
+    div,
+    h3,
+    p,
+    td {
+      margin: 0;
+      padding: 0;
+    }
+
+    table {
+      border-spacing: 0;
+    }
+
+    h3 {
+      font-weight: normal;
+    }
+
+    body {
+      color: #333;
+      font-size: 14px;
+      /* 主字体：优先使用 Noto Sans SC（即思源黑体），回退到系统黑体 */
+      font-family: "Noto Sans SC", "SourceHanSansCN-Regular", "Microsoft YaHei", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: #fff;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* ---------- 主容器 ---------- */
+    .container {
+      width: 1120px;
+      margin: 0 auto;
+    }
+
+    /* ---------- 公告框 ---------- */
+    .infor-box {
+      margin-bottom: 32px;
+      padding: 0 40px 30px 40px;
+      /* 原始个性化覆盖值 */
+      border-top: 2px solid #6dbdff;
+      background-color: #fff;
+      position: relative;
+    }
+
+    /* ---------- 公告标题 ---------- */
+    .infor-tt {
+      padding-top: 27px;
+      padding-bottom: 30px;
+      line-height: 43px;
+      font-size: 24px;
+      /* 标题使用中等字重，对应 Noto Sans SC 500 或 SourceHanSansCN-Medium */
+      font-family: "Noto Sans SC", "SourceHanSansCN-Medium", "Microsoft YaHei", "PingFang SC", sans-serif;
+      font-weight: 500;
+      color: #333;
+      text-align: center;
+    }
+
+    /* ---------- 信息栏灰色条 ---------- */
+    .infor-tip {
+      height: 50px;
+      font-size: 0;
+      /* 消除行内块间隙 */
+      background-color: #f7f7f7;
+      text-align: center;
+    }
+
+    .tip-text {
+      margin-left: 80px;
+      max-width: 250px;
+      display: inline-block;
+      vertical-align: top;
+      line-height: 50px;
+      font-size: 16px;
+      color: #999;
+    }
+
+    .tip-text.max {
+      max-width: 185px;
+    }
+
+    .tip-text.esp {
+      position: relative;
+    }
+
+    /* 右侧竖线分隔符 */
+    .tip-text.esp::before {
+      position: absolute;
+      content: "";
+      left: 50%;
+      margin-left: -1px;
+      top: 50%;
+      margin-top: -9px;
+      width: 2px;
+      height: 18px;
+      background-color: #3d7adc;
+    }
+
+    .tip-text:first-child {
+      margin-left: 0;
+    }
+
+    .opt-name {
+      margin-left: 33px;
+      color: #3d7adc;
+      cursor: pointer;
+    }
+
+    .opt-name:first-child {
+      margin-left: 0;
+    }
+
+    /* ---------- 正文区域 ---------- */
+    .infor-con {
+      padding-top: 14px;
+    }
+
+    /* ---------- 附件列表 ---------- */
+    .file-box {
+      margin-top: 24px;
+      padding: 6px 0 8px 20px;
+      background-color: #f7f7f7;
+    }
+
+    .file-tt {
+      float: left;
+      height: 38px;
+      line-height: 38px;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .file-con {
+      margin-left: 47px;
+      overflow: hidden;
+      /* 清除浮动 */
+    }
+
+    .file-name {
+      float: left;
+      margin-right: 79px;
+      padding-left: 24px;
+      height: 38px;
+      line-height: 38px;
+      background: url(data:,) left center no-repeat;
+    }
+
+    .file-name>a {
+      font-size: 16px;
+      color: #53a9f5;
+      cursor: pointer;
+    }
+
+    .file-name:hover {
+      background-image: url(data:,);
+    }
+
+    .file-name:hover>a {
+      color: #ff9555;
+      text-decoration: underline;
+    }
+
+    /* ---------- 清除浮动 ---------- */
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* ---------- 表格样式 ---------- */
+    table {
+      font-size: 16px;
+    }
+
+    .sub-title {
+      text-align: center;
+      font-size: 1.5em;
+      /* 24px */
+      font-weight: bold;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="infor-box">
+      <div class="notice tabview">
+        <div class="notice-bd">
+
+          <h3 class="infor-tt">绵阳科技城新区科创及园艺片区城镇村及周边基础设施更新改造项目中标结果公告</h3>
+
+          <div class="infor-tip">
+            <p class="tip-text max text-overflow">信息来源：</p>
+            <p class="tip-text">信息时间：2026.05.15</p>
+            <p class="tip-text" id="viewGuid">阅读次数：<span id="infoViewCount">121</span></p>
+            <p class="tip-text esp">
+              <a class="opt-name" href="javascript:void(0)">打印</a>
+              <a class="opt-name" href="javascript:void(0)">关闭</a>
+            </p>
+          </div>
+
+          <div class="infor-con">
+            <div class="sub-title">
+              绵阳科技城新区科创及园艺片区城镇村及周边基础设施更新改造项目中标结果公告
+            </div>
+
+            <table style="width:100%; border-collapse:collapse; margin:0 auto; border:1px solid #000;">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">项目及标段名称</td>
+                  <td colspan="3" style="border:1px solid #000; padding:8px; text-align:center;">
+                    绵阳科技城新区科创及园艺片区城镇村及周边基础设施更新改造项目</td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">招标人</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">绵阳新航建筑工程有限公司</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">联系方式</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">0816-6339120</td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">招标代理机构</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">安迅达工程咨询有限公司</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">联系方式</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">18980348556</td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">开标时间</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">2026.05.05</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">开标地点</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">绵阳市公共资源交易服务中心</td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">中标单位</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">绵阳新投建设有限公司</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">中标通知书发出日期</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">2026.05.15</td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">招标控制价（元）</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">93715600.00</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">中标金额（元/%）</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">80019300.05</td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">质量</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">合格</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">工期（交货期）</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">720</td>
+                </tr>
+                <tr>
+                  <td rowspan="6" style="border:1px solid #000; padding:8px; text-align:center;">评标委员会（四川省评标专家）成员名单</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">姓名</td>
+                  <td colspan="2" style="border:1px solid #000; padding:8px; text-align:center;">单位</td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">邹勤</td>
+                  <td colspan="2" style="border:1px solid #000; padding:8px; text-align:center;">/</td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">康莉琼</td>
+                  <td colspan="2" style="border:1px solid #000; padding:8px; text-align:center;">/</td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">黎建均</td>
+                  <td colspan="2" style="border:1px solid #000; padding:8px; text-align:center;">/</td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">朱发珍</td>
+                  <td colspan="2" style="border:1px solid #000; padding:8px; text-align:center;">/</td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">钟伟</td>
+                  <td colspan="2" style="border:1px solid #000; padding:8px; text-align:center;">/</td>
+                </tr>
+                <tr>
+                  <td rowspan="3" style="border:1px solid #000; padding:8px; text-align:center;">评标委员会（招标人代表）成员名单</td>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">姓名</td>
+                  <td colspan="2" style="border:1px solid #000; padding:8px; text-align:center;">单位</td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">聂燕</td>
+                  <td colspan="2" style="border:1px solid #000; padding:8px; text-align:center;">安迅达工程咨询有限公司</td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000; padding:8px; text-align:center;">邓小丽</td>
+                  <td colspan="2" style="border:1px solid #000; padding:8px; text-align:center;">安迅达工程咨询有限公司</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="file-box clearfix">
+            <p class="file-tt">附件:</p>
+            <div class="file-con">
+              <p class="file-name"><a href="javascript:void(0)" title="中标结果公告.pdf">中标结果公告.pdf</a></p>
+              <p class="file-name"><a href="javascript:void(0)" title="施工中标通知书.pdf">施工中标通知书.pdf</a></p>
+              <p class="file-name"><a href="javascript:void(0)" title="施工结果公告.pdf">施工结果公告.pdf</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
